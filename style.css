@@ -1,0 +1,130 @@
+.header {
+    position: sticky;
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(146, 14, 156));
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+    justify-content: space-between;
+}
+
+.header div img {
+    box-shadow: 0 0 20px rgb(242, 236, 236);
+    height: 55px;
+    border-radius: 50%;
+}
+
+.header div {
+    gap: 12px;
+    margin: 12px;
+    display: flex;
+font-weight: bolder;
+font-size: 23px;
+    color: white;
+
+}
+
+
+.body {
+     width: 100vw;
+    height: 90vh;
+    background: 
+        radial-gradient(circle, 
+            rgba(226, 11, 147, 0.5) 40%, 
+            rgba(218, 171, 17, 0.3) 70%, 
+            rgba(36, 12, 155, 0.7) 100%),
+        url("Screenshot 2025-09-27 175946.png");
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.discription .text .h {
+    text-align: center;
+    text-shadow: 0 0 10px black;
+    background: radial-gradient(circle at 70% 30%,
+            rgb(164, 18, 139),
+            rgb(0, 0, 0) 70%);
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+    font-size: 42px;
+    padding: 12px;
+    margin: 23px;
+    border-radius: 8px;
+    font-weight: bolder;
+}
+
+
+.discription .text .note {
+    background-color: rgba(0, 0, 0, 0.7); 
+    text-align: center;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    border-radius: 7px;
+    font-size: 22px;
+    padding: 12px;
+    font-weight: bolder;
+    text-shadow: 0 0 20px black;
+}
+
+
+
+.discription .text .h:hover {
+    transform: scale(1.1);
+    filter: brightness(130%);
+    transition: all 0.3s ease;
+}
+
+.photo {
+    padding: 15px;
+    margin: 12px;
+}
+
+.photo img {
+height: 35vh;
+
+    width: 38vw;
+    box-shadow: 0 0 20px rgb(244, 244, 244);
+   
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.photo:hover {
+    transform: scale(1.1);
+    filter: brightness(130%);
+    transition: all 0.3s ease;
+}
+
+.button {
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+    background: linear-gradient(to right, rgb(92, 19, 157), rgb(0, 0, 0));
+    color: white;
+    border-radius: 7px;
+    font-weight: bolder;
+    font-size: 23px;
+    padding: 10px;
+    border: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button:hover {
+    transform: scale(1.1);
+    filter: brightness(130%);
+    transition: all 0.3s ease;
+}

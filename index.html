@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Landing Page</title>
+   <style>
+    .header {
+    position: sticky;
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(146, 14, 156));
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+    justify-content: space-between;
+}
+
+.header div img {
+    box-shadow: 0 0 20px rgb(242, 236, 236);
+    height: 55px;
+    border-radius: 50%;
+}
+
+.header div {
+    gap: 12px;
+    margin: 12px;
+    display: flex;
+font-weight: bolder;
+font-size: 23px;
+    color: white;
+
+}
+
+
+.body {
+     width: 100vw;
+    height: 90vh;
+    background: 
+        radial-gradient(circle, 
+            rgba(226, 11, 147, 0.5) 40%, 
+            rgba(218, 171, 17, 0.3) 70%, 
+            rgba(36, 12, 155, 0.7) 100%),
+        url("Screenshot 2025-09-27 175946.png");
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.discription .text .h {
+    text-align: center;
+    text-shadow: 0 0 10px black;
+    background: radial-gradient(circle at 70% 30%,
+            rgb(164, 18, 139),
+            rgb(0, 0, 0) 70%);
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+    font-size: 42px;
+    padding: 12px;
+    margin: 23px;
+    border-radius: 8px;
+    font-weight: bolder;
+}
+
+
+.discription .text .note {
+    background-color: rgba(0, 0, 0, 0.7); 
+    text-align: center;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    border-radius: 7px;
+    font-size: 22px;
+    padding: 12px;
+    font-weight: bolder;
+    text-shadow: 0 0 20px black;
+}
+
+
+
+.discription .text .h:hover {
+    transform: scale(1.1);
+    filter: brightness(130%);
+    transition: all 0.3s ease;
+}
+
+.photo {
+    padding: 15px;
+    margin: 12px;
+}
+
+.photo img {
+height: 35vh;
+
+    width: 38vw;
+    box-shadow: 0 0 20px rgb(244, 244, 244);
+   
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.photo:hover {
+    transform: scale(1.1);
+    filter: brightness(130%);
+    transition: all 0.3s ease;
+}
+
+.button {
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+    background: linear-gradient(to right, rgb(92, 19, 157), rgb(0, 0, 0));
+    color: white;
+    border-radius: 7px;
+    font-weight: bolder;
+    font-size: 23px;
+    padding: 10px;
+    border: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button:hover {
+    transform: scale(1.1);
+    filter: brightness(130%);
+    transition: all 0.3s ease;
+}
+   </style>
+</head>
+<body>
+<div class="ok">
+    <div class="header">
+        <div><img src="Screenshot 2025-09-27 165840.png" alt="">
+        </div>
+       <div class="option">
+        <p>About Us</p>
+        <p>Contact Us</p>
+        <p><a href="index2.html">Register Now</a></p>
+       </div>
+      
+
+    </div>
+  
+    <div class="body">
+<div class="discription">
+    <div class="text">
+       <div class="h">Ready to Game?</div>
+       <div class="note">Step into the ultimate battleground where tech and gaming collide! Compete, connect, and conquer in an event packed with challenges, prizes, and non-stop excitement.</div>
+       <div class="h">Gaming Meets Innovation!</div>
+       <div class="note">Experience the fusion of technology and gaming at our Tech Club’s special event. Explore cutting-edge trends, compete in exciting challenges, and connect with enthusiasts who share your passion for both tech and play.</div>
+    </div>
+   <a  href="index2.html" target="_blank">
+  <button class="button">Open Registration Form</button>
+</a>
+
+ 
+</div>
+
+<div class="photo">
+    <img src="Screenshot 2025-09-27 174411.png" alt="">
+    <img src="Screenshot 2025-09-27 174137.png" alt="img">
+</div>
+</div>
+    
+   
+</body>
+</html>
